@@ -1,0 +1,28 @@
+﻿<Window x:Class="Точка_проката_ЦПКиО_им._Маяковского.ОкноСозданияОборудования"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Точка_проката_ЦПКиО_им._Маяковского"
+        mc:Ignorable="d"
+        Title="ОкноСозданияОборудования" Height="210" Width="300" FontFamily="Comic Sans MS" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0">
+            <Label Content="Номер оборудования" FontSize="16" Margin="10,0,10,0" DockPanel.Dock="Top"/>
+            <TextBox Name="номер" FontSize="16" Height="30" MaxLength="50" Margin="10,0,10,0"/>
+        </DockPanel>
+        
+        <DockPanel Grid.Row="1">
+            <Label Content="Тип оборудования" FontSize="16" Margin="10,0,10,0" DockPanel.Dock="Top"/>
+            <ComboBox Name="тип" FontSize="16" Height="30" Margin="10,0,10,0"/>
+        </DockPanel>
+
+        <Button Content="Подтвердить" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Click="Button_Click"/>
+    </Grid>
+</Window>

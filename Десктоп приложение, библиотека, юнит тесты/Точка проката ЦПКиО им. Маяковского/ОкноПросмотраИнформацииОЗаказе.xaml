@@ -1,0 +1,52 @@
+﻿<Window x:Class="Точка_проката_ЦПКиО_им._Маяковского.ОкноПросмотраИнформацииОЗаказе"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Точка_проката_ЦПКиО_им._Маяковского"
+        mc:Ignorable="d"
+        Title="Заказ" Height="650" Width="900" FontFamily="Comic Sans MS" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="200*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Background="#FF76E383">
+            <Label Name="номерЗаказа" FontSize="16" Content="Номер заказа:" VerticalAlignment="Center"/>
+            <Label Name="часовПроката" FontSize="16" Content="Время проката (часов):" VerticalAlignment="Center"/>
+            <Label Name="стоимостьЗаказа" FontSize="16" Content="Стоимость:" VerticalAlignment="Center"/>
+            <Image Name="штрихКодКартинка" Stretch="Fill"/>
+        </DockPanel>
+
+        <DockPanel Background="#FF76E383" Grid.Row="1">
+            <Label Name="фио" FontSize="16" Content="ФИО клиента:" VerticalAlignment="Center"/>
+            <Label Name="электроннаяПочта" FontSize="16" Content="Электронная почта клиента:" VerticalAlignment="Center"/>
+        </DockPanel>
+
+        <DockPanel Grid.Row="2">
+            <DockPanel>
+                <Label Content="Услуги" FontSize="16" DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0"/>
+
+                <DataGrid Name="услуги" IsReadOnly="True" SelectionMode="Single" Background="#FF76E383">
+                </DataGrid>
+            </DockPanel>
+
+            <DockPanel>
+                <Label Content="Оборудование" FontSize="16" DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0"/>
+
+                <DataGrid Name="оборудование" IsReadOnly="True" SelectionMode="Single" Background="#FF76E383">
+                </DataGrid>
+            </DockPanel>
+        </DockPanel>
+
+        <DockPanel Grid.Row="3">
+            <Label Content="История" FontSize="16" DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0"/>
+
+            <DataGrid Name="история" IsReadOnly="True" SelectionMode="Single" Background="#FF76E383">
+            </DataGrid>
+        </DockPanel>
+    </Grid>
+</Window>

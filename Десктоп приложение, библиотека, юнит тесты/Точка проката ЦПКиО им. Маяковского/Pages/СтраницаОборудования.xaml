@@ -1,0 +1,25 @@
+﻿<Page x:Class="Точка_проката_ЦПКиО_им._Маяковского.Pages.СтраницаОборудования"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Точка_проката_ЦПКиО_им._Маяковского.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="310" d:DesignWidth="800"
+      Title="Оборудование" FontFamily="Comic Sans MS" Loaded="Window_Loaded" Background="#FF76E383">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="260*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel>
+            <TextBox Name="поиск" Height="30" Width="400" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            <Button Name="выбрать" Content="🔍" Height="30" Width="30" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" Click="выбрать_Click"/>
+            <Button Name="создать" Content="Создать" Height="30" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" Click="Button_Click"/>
+        </DockPanel>
+
+        <DataGrid Name="оборудование" Grid.Row="1" IsReadOnly="True" SelectionMode="Single" Background="#FF76E383"></DataGrid>
+    </Grid>
+</Page>

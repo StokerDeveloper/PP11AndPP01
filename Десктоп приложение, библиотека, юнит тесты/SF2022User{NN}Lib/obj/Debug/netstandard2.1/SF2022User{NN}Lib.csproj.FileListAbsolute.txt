@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\bin\Debug\netstandard2.1\SF2022User{NN}Lib.deps.json
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\bin\Debug\netstandard2.1\SF2022User{NN}Lib.dll
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\bin\Debug\netstandard2.1\SF2022User{NN}Lib.pdb
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\obj\Debug\netstandard2.1\SF2022User{NN}Lib.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\obj\Debug\netstandard2.1\SF2022User{NN}Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\obj\Debug\netstandard2.1\SF2022User{NN}Lib.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\obj\Debug\netstandard2.1\SF2022User{NN}Lib.AssemblyInfo.cs
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\obj\Debug\netstandard2.1\SF2022User{NN}Lib.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\obj\Debug\netstandard2.1\SF2022User{NN}Lib.dll
+C:\Users\user\Desktop\ПП.11+ПП.01\Задание от теха\SF2022User{NN}Lib\obj\Debug\netstandard2.1\SF2022User{NN}Lib.pdb

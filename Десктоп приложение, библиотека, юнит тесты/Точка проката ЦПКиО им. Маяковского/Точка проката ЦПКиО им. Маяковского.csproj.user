@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\СтраницаЗаказов.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\СтраницаИсторииВходов.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\СтраницаОборудования.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\СтраницаОтчета.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\СтраницаОформленияЗаказа.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\СтраницаПринятияЗаказа.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\СтраницаПринятияОборудования.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноВхода.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноВыбораВариантаСохраненияОтчетаВПДФ.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноВыбораЗаказа.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноВыбораКлиента.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноКапчи.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноПросмотраИнформацииОЗаказе.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноСозданияКлиента.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноСозданияОборудования.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ОкноСотрудника.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\СтраницаЗаказов.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\СтраницаИсторииВходов.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\СтраницаОборудования.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\СтраницаОтчета.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\СтраницаОформленияЗаказа.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\СтраницаПринятияЗаказа.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\СтраницаПринятияОборудования.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноВхода.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноВыбораВариантаСохраненияОтчетаВПДФ.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноВыбораЗаказа.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноВыбораКлиента.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноКапчи.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноПросмотраИнформацииОЗаказе.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноСозданияКлиента.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноСозданияОборудования.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ОкноСотрудника.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
