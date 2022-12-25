@@ -16,27 +16,27 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
 {
     public partial class СтраницаОтчета : Page
     {
-        private ПрокатContext db;
+        private ПрокатContext прокатContext;
 
-        private DockPanel currentTable = null;
-        private CartesianChart currentGrafic = null;
+        private DockPanel currentTable = null; // Текущая таблица отчета по количеству услуг
+        private CartesianChart currentGrafic = null; // Текущий график отчета по количеству услуг
 
-        private DockPanel currentTable1 = null;
-        private CartesianChart currentGrafic1 = null;
+        private DockPanel currentTable1 = null; // Текущая таблица отчета по количеству заказов по услуге
+        private CartesianChart currentGrafic1 = null; // Текущий график отчета по количеству заказов по услуге
 
-        private DockPanel currentTable2 = null;
-        private CartesianChart currentGrafic2 = null;
+        private DockPanel currentTable2 = null; // Текущая таблица отчета по количеству заказов
+        private CartesianChart currentGrafic2 = null; // Текущий график отчета по количеству заказов
 
         public СтраницаОтчета()
         {
-            db = new ПрокатContext(Properties.Resources.connectionString);
+            прокатContext = new ПрокатContext(Properties.Resources.connectionString);
             InitializeComponent();
         }
 
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             UpdateComboBox(
-                await db.Услугиs.ToListAsync()
+                await прокатContext.Услугиs.ToListAsync()
             );
 
             DataContext = this;
@@ -74,6 +74,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
             }
             else
             {
+                // Комментарии написаны только для одного варианта отчета т.к. остальные не отличаются
                 if (Convert.ToString(((TabItem)табКонтрол.SelectedItem).Header) == "Количество оказанных услуг")
                 {
                     dockPanel1.Children.Clear();
@@ -81,7 +82,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                     List<ДвиженияЗаказов> движенияЗаказов = new List<ДвиженияЗаказов>();
                     try
                     {
-                        движенияЗаказов = await db.ДвиженияЗаказовs.
+                        движенияЗаказов = await прокатContext.ДвиженияЗаказовs.
                             FromSqlRaw(@$"
                                 select 
                                     * 
@@ -104,6 +105,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                         return;
                     }
 
+                    // Заполнение дат и значений
                     int index = 0;
                     for (int i = 0; i < движенияЗаказов.Count; i++)
                     {
@@ -113,7 +115,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                             движенияЗаказов[i].Дата.Day
                         );
 
-                        if (i == 0)
+                        if (i == 0) // Заполнение начального промежутка между имеющимися датами
                         {
                             DateTime _дата = startDate;
 
@@ -130,7 +132,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                             даты.Add(дата);
                             значения.Add(движенияЗаказов[i].ЗаказNavigation.ПредоставлениеУслугs.Count);
                         }
-                        else if (даты[index] != дата)
+                        else if (даты[index] != дата) // Заполнение имеющихся дат
                         {
                             DateTime _дата = даты[index].AddDays(1);
 
@@ -149,12 +151,12 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
 
                             index += 1;
                         }
-                        else
+                        else // Сумма значений для определенной даты
                         {
                             значения[index] += движенияЗаказов[i].ЗаказNavigation.ПредоставлениеУслугs.Count;
                         }
 
-                        if (i == движенияЗаказов.Count - 1)
+                        if (i == движенияЗаказов.Count - 1) // Заполнение конечного промежутка между датами
                         {
                             DateTime _дата = даты[index].AddDays(1);
 
@@ -170,7 +172,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                         }
                     }
 
-                    if (движенияЗаказов.Count == 0)
+                    if (движенияЗаказов.Count == 0) // Если данные на данный промежуток отсутствуют то заполняются пустые значения
                     {
                         DateTime дата = startDate;
 
@@ -184,6 +186,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                     }
 
 
+                    // Формирование таблицы
                     DockPanel table = new();
                     table.Children.Add(СформироватьЗаголовкиТаблицы("Количество оказанных услуг"));
                     table.Children.Add(СформироватьТаблицу(даты, значения));
@@ -200,6 +203,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                     scrollViewer.Content = viewbox;
 
 
+                    // Формирование графика
                     CartesianChart grafic = СформироватьГрафик("Количество оказанных услуг:", даты, значения, 600, 200);
 
                     Viewbox viewbox1 = new();
@@ -228,7 +232,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                     List<ДвиженияЗаказов> движенияЗаказов = new List<ДвиженияЗаказов>();
                     try
                     {
-                        движенияЗаказов = await db.ДвиженияЗаказовs.
+                        движенияЗаказов = await прокатContext.ДвиженияЗаказовs.
                             FromSqlRaw(@$"
                                 select 
                                     [Движения заказов].* 
@@ -378,7 +382,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                     List<ДвиженияЗаказов> движенияЗаказов = new List<ДвиженияЗаказов>();
                     try
                     {
-                        движенияЗаказов = await db.ДвиженияЗаказовs.
+                        движенияЗаказов = await прокатContext.ДвиженияЗаказовs.
                             FromSqlRaw(@$"
                                 select 
                                     * 
@@ -624,6 +628,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
             Enable();
         }
 
+        // Заполнение выпадающего списка услуг из базы данных
         private void UpdateComboBox(List<Услуги> услуги)
         {
             if (услуги == null || услуги.Count == 0)
@@ -644,6 +649,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
             comboBoxTypes.SelectedIndex = 0;
         }
 
+        // Изменение доступности элементов управления для блокировки в момент выполнения вычислений/операций ввода-вывода
         private void Enable()
         {
             началоПериода.IsEnabled = !началоПериода.IsEnabled;
@@ -658,6 +664,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
             табКонтрол.IsEnabled = !табКонтрол.IsEnabled;
         }
 
+        // Формирование заголовков таблицы для последующего вывода на страницу
         private DockPanel СформироватьЗаголовкиТаблицы(string имяВторогоЗаголовка)
         {
             Label label1 = new Label();
@@ -697,6 +704,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
             return dockPanel;
         }
 
+        // Формирование тела страницы на основе дат и значений для последующего вывода на страницу
         private DockPanel СформироватьТаблицу(List<DateTime> даты, List<double> значения)
         {
             DockPanel tableDockPanel = new();
@@ -821,14 +829,16 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
             return tableDockPanel;
         }
 
+        // Функция для формата даты в графике
         public Func<double, string> Formatter { get; set; } = value => new DateTime((long)value).ToString("dd.MM.yyyy");
 
+        // Формирование графика на основе дат и значений для последующего вывода на страницу
         private CartesianChart СформироватьГрафик(string заголовок, List<DateTime> даты, List<double> значения, double width, double heigth)
         {
-            ChartValues<DateTimePoint> values = new ChartValues<DateTimePoint>();
+            ChartValues<DateTimePoint> graficValues = new ChartValues<DateTimePoint>();
 
             for (int i = 0; i < даты.Count; i++)
-                values.Add(
+                graficValues.Add(
                     new DateTimePoint
                     {
                         DateTime = даты[i],
@@ -844,7 +854,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                         Stroke = new SolidColorBrush(Color.FromArgb(255, (byte)73, (byte)140, (byte)81)),
                         PointGeometrySize = 10,
                         PointForeground = new SolidColorBrush(Color.FromArgb(255, (byte)73, (byte)140, (byte)81)),
-                        Values = values,
+                        Values = graficValues,
                         Foreground = Brushes.Black,
                         //LabelPoint = point => point.X + "\n" + point.SeriesView.Title + " " + point.Y,
                         DataLabels = false
@@ -895,6 +905,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
             return chart;
         }
 
+        // Сохранение в pdf в зависимости от варианта сохранения (таблица, график, график и таблица)
         private bool SaveToPDF(int report, int variant, string fileName)
         {
             DockPanel table = new();
@@ -931,13 +942,13 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
                             return false;
                         
                         
-                        Aspose.Pdf.Image картинка = new Aspose.Pdf.Image();
-                        картинка.File = (fileName + @"-таблица.png");
+                        Aspose.Pdf.Image картинкаЭлемента = new Aspose.Pdf.Image();
+                        картинкаЭлемента.File = (fileName + @"-таблица.png");
 
                         //картинка.FixHeight = высотаКартинки / 10;
                         //картинка.FixWidth = ширинаКартинки / 10;
 
-                        page.Paragraphs.Add(картинка);
+                        page.Paragraphs.Add(картинкаЭлемента);
                     }
                     if (variant == 2 || variant == 3)
                     {
@@ -982,6 +993,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Page
             }
         }
 
+        // Сохранения элемента в png
         private bool SaveToPng(FrameworkElement visual, string fileName)
         {
             var encoder = new PngBitmapEncoder();

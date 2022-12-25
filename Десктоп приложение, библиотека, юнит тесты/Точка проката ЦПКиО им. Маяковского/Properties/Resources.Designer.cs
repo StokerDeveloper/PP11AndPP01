@@ -61,7 +61,7 @@ namespace Точка_проката_ЦПКиО_им._Маяковского.Prop
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Data Source=LAPTOP-V07TG78O;Initial Catalog=Прокат;Integrated Security=True.
+        ///   Ищет локализованную строку, похожую на Data Source=.;Initial Catalog=Прокат;Integrated Security=True.
         /// </summary>
         internal static string connectionString {
             get {

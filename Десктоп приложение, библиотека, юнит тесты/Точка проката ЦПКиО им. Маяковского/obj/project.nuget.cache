@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aPRU9ZzpEqd3PiN4NLXUmlEjjzEKIO14t7qyF6tQ3ola9zAHnwmyIqXBv8wb/cc5xsbunhWcBl5W4mpP8y682g==",
+  "dgSpecHash": "mVj98BNCEMjOZb74Uj1/yPbN7bOZ0ybuIzwg2Rwov2/j4SpJ4QCMdK9uumI+Gtfg11hmHPXIsIgF/HyfIvQL0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\ПП.11+ПП.01\\Задание от теха\\Точка проката ЦПКиО им. Маяковского\\Точка проката ЦПКиО им. Маяковского.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\PP11AndPP01\\Десктоп приложение, библиотека, юнит тесты\\Точка проката ЦПКиО им. Маяковского\\Точка проката ЦПКиО им. Маяковского.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\aspose.pdf\\22.10.0\\aspose.pdf.22.10.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

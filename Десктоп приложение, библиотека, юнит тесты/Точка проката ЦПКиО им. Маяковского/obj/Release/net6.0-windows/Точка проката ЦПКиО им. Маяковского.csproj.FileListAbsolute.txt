@@ -1,0 +1,93 @@
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.exe
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.deps.json
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.runtimeconfig.json
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.pdb
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Aspose.PDF.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Humanizer.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\LiveCharts.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаЗаказов.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаИсторииВходов.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаОборудования.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаОтчета.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаОформленияЗаказа.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаПринятияЗаказа.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаПринятияОборудования.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноВхода.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноВыбораВариантаСохраненияОтчетаВПДФ.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноВыбораЗаказа.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноВыбораКлиента.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноКапчи.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноПросмотраИнформацииОЗаказе.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноСозданияКлиента.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноСозданияОборудования.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноСотрудника.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\App.g.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского_MarkupCompile.cache
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского_MarkupCompile.lref
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаЗаказов.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаИсторииВходов.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаОборудования.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаОтчета.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаОформленияЗаказа.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаПринятияЗаказа.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Pages\СтраницаПринятияОборудования.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноВхода.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноВыбораВариантаСохраненияОтчетаВПДФ.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноВыбораЗаказа.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноВыбораКлиента.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноКапчи.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноПросмотраИнформацииОЗаказе.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноСозданияКлиента.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноСозданияОборудования.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ОкноСотрудника.baml
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.g.resources
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка_проката_ЦПКиО_им._Маяковского.Properties.Resources.resources
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.csproj.GenerateResource.cache
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.AssemblyInfo.cs
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.csproj.CopyComplete
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\refint\Точка проката ЦПКиО им. Маяковского.dll
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.pdb
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\Точка проката ЦПКиО им. Маяковского.genruntimeconfig.cache
+C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\obj\Release\net6.0-windows\ref\Точка проката ЦПКиО им. Маяковского.dll

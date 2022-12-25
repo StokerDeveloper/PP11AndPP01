@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7mu+X2cglRTR4ibgRhpZejnqsNZ2CFHM06iHwlAE/mUZ0J08aHt3J3+XovwUVolrINRwxpCgq6R1bqkZmQoisA==",
+  "dgSpecHash": "YmVCwLzcghKnjOO9DeTz0ScD9ZzTtAWsHO2bSo0fzsyUnY42Z2fx3c6PsuObK0Ym7PtDVCaNmwdMtAZmNVGhww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\ПП.11+ПП.01\\Задание от теха\\SF2022User{NN}LibTestProject\\SF2022User{NN}LibTestProject.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\PP11AndPP01\\Десктоп приложение, библиотека, юнит тесты\\SF2022User{NN}LibTestProject\\SF2022User{NN}LibTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

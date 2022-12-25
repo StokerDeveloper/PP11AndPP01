@@ -29,7 +29,7 @@ AllowNoIcons=yes
 ;PrivilegesRequired=lowest
 OutputDir=C:\Users\user\Desktop\PP11AndPP01\Установщик
 OutputBaseFilename=Точка проката ЦПКиО им. Маяковского setup
-SetupIconFile=C:\Users\user\Desktop\ПП.11+ПП.01\Задание от техникума\Десктоп приложение\Точка проката ЦПКиО им. Маяковского\Resources\logo.ico
+SetupIconFile=C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\Resources\logo.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -42,8 +42,8 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\user\Desktop\ПП.11+ПП.01\Задание от техникума\Десктоп приложение\Точка проката ЦПКиО им. Маяковского\bin\Debug\net6.0-windows\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\user\Desktop\ПП.11+ПП.01\Задание от техникума\Десктоп приложение\Точка проката ЦПКиО им. Маяковского\bin\Debug\net6.0-windows\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\user\Desktop\PP11AndPP01\Десктоп приложение, библиотека, юнит тесты\Точка проката ЦПКиО им. Маяковского\bin\Release\net6.0-windows\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
